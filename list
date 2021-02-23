@@ -1,0 +1,184 @@
+# Реклама групп с пометкой рекламы
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
+
+# Реклама интересных авторов
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_authors_rec)
+
+# Рекомендации в ленте
+vk.com##.feed_friends_recomm
+vk.com###profile_friends_recomm
+
+# Рекомендации лайв трансляций
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_live_recommended)
+
+# Блокировка баннеров слева
+~vk.com###vkMsg
+##.ads300-thumb
+##.ads600x200
+##.ads_600x200
+##.adsbyyottos
+vk.com###ads_left
+
+# Рекламный домен для музыки, статей, видео
+||ad.mail.ru/adq/*$domain=vk.com,important
+||ad.mail.ru^$domain=vk.com,important
+
+# Аналитика
+||trk.mail.ru$domain=vk.com,important
+||mc.yandex.ru/metrika/watch.js$domain=vk.com,important
+||rs.mail.ru$domain=vk.com,important
+||google-analytics.com/analytics.js$domain=vk.com,important
+
+# Блокировка баннеров слева v2
+vk.com###ads_left:style(position: absolute; top: -2500px;)
+##.trg-b-banner-block
+vk.com###ads_left
+vk.com##.audio_subscribe_promo__content
+vk.com###apps_ads_wrap
+||vk.com/js/al/aes_light.js$third-party
+
+# Реклама групп с пометкой рекламы v2
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_marked_as_ads"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_marked_as_ads']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_marked_as_ads"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_marked_as_ads)
+vk.com##.wall_marked_as_ads
+vk.com###system_msg
+
+# Универсальные правила для блокировки рекламных  баннеров для блокировки будущих рекламных баннеров
+vk.com##[class^="ads_ad_"]
+vk.com##[class^="ads"]
+vk.com##.ads_ads_news_wrap
+vk.com##._ads_promoted_post_data_w
+vk.com##.ads_ads_box
+vk.com##div.feed_row[style=""]
+vk.com##div.ads_ad_box3 ver + *
+vk.com##div[ data-ad-view*="*"]
+vk.com##div[data-ad*="*"]
+vk.com##div[data-ad-view*="*"]
+vk.com##div[data-ads*="*"]
+vk.com##div [ post_ad_data*="*"]
+vk.com##div [ class="feed_friends_recomm__title"]
+vk.com##div [ class="ui_gallery__inner"]
+vk.com##div [ class="ui_gallery__inner_cont"]
+vk.com##.post:has(.wall_marked_as_ads)
+vk.com##div [ post_ad_site*="*"]
+vk.com##div [ postadsite*="*"]
+vk.com##div [ post_ads_ad_box*="*"]
+vk.com##div [ class="audio_promo__items"]
+vk.com##div#left_ads
+vk.com##div[data-ad-view]
+vk.com##div[data-ad]
+vk.com##div[data-ads]
+
+# Блокировка баннеров в видео и других разделах
+||vk.com/al_video.php?act=ads_stat
+||vk.com/ads_rotate.php^
+||ad.mail.ru/static/admanhtml/rbadman-html5.min.js$domain=vk.com,important
+
+# Костыль для отмены фильтрования рекламы в документах для блокировки баннеров v2
+@@://vk.com/ads$document,~third-party,important
+@@://vk.com/exchange$document,important
+
+# Слежка
+||tracker-api.my.com$domain=vk.com,important
+||top-fwz1.mail.ru/js/code.js$domain=vk.com,important
+||r.mail.ru$domain=vk.com,important
+||tns-counter.ru^$domain=vk.com,important
+||vigo.mgts.ru/uxzoom$domain=vk.com,important
+||stats.vk-portal.net/uxzoom$domain=vk.com,important
+||stat.pladform.ru$domain=vk.com,important
+||r3.mail.ru$domain=vk.com,important
+
+# Блокировка истории просмотров для видео дабы было меньше слежки
+||vk.com/al_video.php?act=track_player_events^
+||vk.com/al_video.php?act=inc_view_counter^
+||vk.com/al_video.php?act=a_view_segments^
+||vk.com/al_video.php?act=video_view_started^
+||vk.com/al_video.php?act=check_live_phase^
+||vk.com/al_video.php?act=a_player_stat^
+||vk.com/al_video.php?act=live_other_videos^
+||vk.com/al_video.php?act=live_heartbeat^
+||vk.com/al_video.php?act=fetch_player_suggestions^
+||vk.com/al_video.php?act=watch_stat^
+||vk.com/al_index.php?act=a_other_videos_navigation^
+||vk.com/al_video.php?act=live_stop_heartbeat^
+
+# Баннеры с приложенями вк
+vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
+vk.com##.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
+vk.com##.apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block
+
+# Рекомендации групп
+vk.com###groups_filters_wrap > .page_block
+vk.com###groups_filters_wrap
+
+# Рекомендации друзей
+vk.com###friends_possible_block
+
+# Баннер VK Pay в настройках
+vk.com###settings_ps_promo_big_banner_container
+vk.com##.settings_vkpay_promo_banner_link_a
+vk.com###settings_vkpay_promo_big_banner_container
+
+# Просьба купить подписку на музыку
+||vk.com/al_audio.php?act=need_show_promo^
+
+# Баннер универсальный
+||vk.com/ads_rotate.php$first-party,important
+
+# Слежка
+||vk.go.mail.ru^$important
+
+# Скрипт подбора рекламы и рекомендаций
+||vk.com/js/lib/px.js^$important
+
+# Отправка логов и ошибок
+||vk.com/errors.php^$important
+||vk.com/upload_fails.php^$important
+
+# Новая реклама
+||vk.com/al_feed.php?ads_section^
+
+# Новые рекомендации в ленте
+vk.com###feed_recommends
+
+# Просьба купить подписку на музыку v2
+vk.com##div#content > div._audio_page_layout.audio_page_layout.audio_page_layout2 > div._audio_page_content_block_wrap.audio_page_content_block_wrap > div.page_block._audio_page_content_block > div.audio_page_sections._audio_page_sections.clear_fix > div.audio_section.audio_w_covers._audio_section._audio_section__all.audio_section__all > div.audio_page_section_layout._audio_page_section_layout.has_friends_block > div.audio_page_all_layout_columns.clear_fix > div.audio_friends_list_wrap._audio_friends_list_wrap > div.audio_friends_list_content._audio_friends_list_content > div.audio_subscribe_promo
+
+# Промо сторис
+vk.com##.stories_feed_preview_item.story_feed_new_item.story_feed_new_item_promo
+
+# Popup с просьбой включить нотифаи для браузера
+vk.com##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest
+
+# Юзлесс говно на странице
+vk.com##.profile_rate_warning
+
+# Кнопочки поделиться в группах
+vk.com###page_menu_group_invite
+vk.com###page_menu_group_share
+
+# хуита которая типа чем та должна помогать в группах, но хуита
+vk.com## .feature_intro_tt, .feature_info_tooltip
+
+# ну хуй его знает, я баклажан
+||stats.vk-portal.net/web-stats
+
+# комментарии к постам
+vk.com##div [ class="replies"]
+vk.com##div [ class="post_replies_header clear_fix"]
+
+# Популярные клипы
+vk.com##div [ class="page_block ShortVideoFeedBlock"]
+
+# Популярные клипы (если не работает)
+vk.com##div [ class="ShortVideoFeedBlock__header"]
+
+#Новый банер в музыке
+vk.com##div [ class="audio_promo"]
+
+#Симпатии на 14 февраля под аватаром
+vk.com##div [ class="page_block ownerButton ownerButton_lovina_valentine"]
