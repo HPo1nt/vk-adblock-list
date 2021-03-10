@@ -19,9 +19,12 @@ vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_live_recommended)
 ##.adsbyyottos
 vk.com###ads_left
 
-# Рекламный домен для музыки, статей, видео
+# Домены и попапы
 ||ad.mail.ru/adq/*$domain=vk.com,important
 ||ad.mail.ru^$domain=vk.com,important
+vk.com## .feature_intro_tt, .feature_info_tooltip
+vk.com##.profile_rate_warning
+vk.com##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest
 
 # Аналитика
 ||trk.mail.ru$domain=vk.com,important
@@ -105,6 +108,7 @@ vk.com##div[data-ads]
 ||vk.com/al_video.php?act=watch_stat^
 ||vk.com/al_index.php?act=a_other_videos_navigation^
 ||vk.com/al_video.php?act=live_stop_heartbeat^
+||stats.vk-portal.net/web-stats
 
 # Баннеры с приложенями вк
 vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
@@ -151,21 +155,9 @@ vk.com##div#content > div._audio_page_layout.audio_page_layout.audio_page_layout
 # Промо сторис
 vk.com##.stories_feed_preview_item.story_feed_new_item.story_feed_new_item_promo
 
-# Popup с просьбой включить нотифаи для браузера
-vk.com##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest
-
-# Юзлесс говно на странице
-vk.com##.profile_rate_warning
-
 # Кнопочки поделиться в группах
 vk.com###page_menu_group_invite
 vk.com###page_menu_group_share
-
-# хуита которая типа чем та должна помогать в группах, но хуита
-vk.com## .feature_intro_tt, .feature_info_tooltip
-
-# ну хуй его знает, я баклажан
-||stats.vk-portal.net/web-stats
 
 # комментарии к постам
 vk.com##div [ class="replies"]
@@ -173,8 +165,6 @@ vk.com##div [ class="post_replies_header clear_fix"]
 
 # Популярные клипы
 vk.com##div [ class="page_block ShortVideoFeedBlock"]
-
-# Популярные клипы (если не работает)
 vk.com##div [ class="ShortVideoFeedBlock__header"]
 
 #Новый банер в музыке
