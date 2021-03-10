@@ -182,3 +182,10 @@ vk.com##div [ class="audio_promo"]
 
 #Симпатии на 14 февраля под аватаром
 vk.com##div [ class="page_block ownerButton ownerButton_lovina_valentine"]
+
+#Музыканты для вас
+vk.com##.CatalogBlock__layout--slider.CatalogBlock__artists_recoms.CatalogBlock__content
+vk.com##.CatalogBlock__layout--header.CatalogBlock__artists_recoms_header.CatalogBlock__content
+
+#По вашим предпочтениям (музыка)
+vk.com##div.CatalogBlock--divided.CatalogBlock:nth-of-type(2)
