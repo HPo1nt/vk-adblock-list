@@ -179,3 +179,6 @@ vk.com##.CatalogBlock__layout--header.CatalogBlock__artists_recoms_header.Catalo
 
 #По вашим предпочтениям (музыка)
 vk.com##div.CatalogBlock--divided.CatalogBlock:nth-of-type(2)
+
+#Бессмертный полк онлайн
+vk.com##.feed_blog_reminder_large.feed_blog_reminder.clear_fix.page_block
