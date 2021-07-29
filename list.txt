@@ -56,7 +56,6 @@ vk.com##[class^="ads"]
 vk.com##.ads_ads_news_wrap
 vk.com##._ads_promoted_post_data_w
 vk.com##.ads_ads_box
-vk.com##div.feed_row[style=""]
 vk.com##div.ads_ad_box3 ver + *
 vk.com##div[ data-ad-view*="*"]
 vk.com##div[data-ad*="*"]
