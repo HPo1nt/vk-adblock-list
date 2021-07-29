@@ -184,7 +184,7 @@ vk.com##div.CatalogBlock--divided.CatalogBlock:nth-of-type(2)
 vk.com##.feed_blog_reminder_large.feed_blog_reminder.clear_fix.page_block
 
 #Сообщества для вас
-vk.com##.page_block feed_groups_recomm feed_groups_recomm_friends
+vk.com##.feed_groups_recomm_friends.feed_groups_recomm.page_block
 
 #Узнайте больше о COVID-19
 vk.com##.post_top_info_wall_reply
