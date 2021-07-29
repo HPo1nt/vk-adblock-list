@@ -188,3 +188,6 @@ vk.com##.feed_groups_recomm_friends.feed_groups_recomm.page_block
 
 #Узнайте больше о COVID-19
 vk.com##.post_top_info_wall_reply
+
+#"Подписка на музыку" под друзьями, во вкладке "Музыка"
+vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription_ru.CatalogBlock__content
