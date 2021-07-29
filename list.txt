@@ -182,3 +182,6 @@ vk.com##div.CatalogBlock--divided.CatalogBlock:nth-of-type(2)
 
 #Бессмертный полк онлайн
 vk.com##.feed_blog_reminder_large.feed_blog_reminder.clear_fix.page_block
+
+#Сообщества для вас
+vk.com##.page_block feed_groups_recomm feed_groups_recomm_friends
