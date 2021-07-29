@@ -192,5 +192,5 @@ vk.com##.post_top_info_wall_reply
 #Блок подписка на музыку под друзьями, во вкладке музыка
 vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription_ru.CatalogBlock__content
 
-#Банер ВКонтакте и Юла теперь вместе в объявлениях
+#Баннер ВКонтакте и Юла теперь вместе в объявлениях
 vk.com##.MarketCatalogBlockBanner__bannerContainer
