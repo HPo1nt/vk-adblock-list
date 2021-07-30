@@ -206,3 +206,6 @@ vk.com###group_section_menu
 
 #Рекомендует друг, в группах
 vk.com##.group_friends_wrap
+
+#Подписка на музыку в верхнем выплывающем меню музыки
+vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription.CatalogBlock__content
