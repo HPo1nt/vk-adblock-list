@@ -213,3 +213,6 @@ vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription.CatalogBlo
 
 #Недавно посещённые группы
 vk.com###react_rootRecentGroups
+
+#Рекомендуемые сюжеты 
+vk.com##._post.post.page_block.RecommendedNarrativesBlock
