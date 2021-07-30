@@ -203,3 +203,6 @@ vk.com##.deep_active.post--with-likes.mark_top_verified.page_block.post._post
 
 #Рамки от кнопок в группах
 vk.com###group_section_menu
+
+#Рекомендует друг, в группах
+vk.com##.group_friends_wrap
