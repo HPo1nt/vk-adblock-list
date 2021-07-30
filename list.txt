@@ -216,3 +216,6 @@ vk.com###react_rootRecentGroups
 
 #Рекомендуемые сюжеты 
 vk.com##._post.post.page_block.RecommendedNarrativesBlock
+
+#Баннер Sale Day
+vk.com##.apps_feedRightAppsBlock_sale_day.apps_feedRightAppsBlock.page_block
