@@ -193,3 +193,6 @@ vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription_ru.Catalog
 
 #Баннер ВКонтакте и Юла теперь вместе в объявлениях
 vk.com##.MarketCatalogBlockBanner__bannerContainer
+
+#Понравилось другу, друг проголосовал в опросе в новостях
+vk.com##.deep_active.post--with-likes.post_signed.mark_top_verified.page_block.post._post
