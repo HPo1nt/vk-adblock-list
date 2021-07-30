@@ -173,6 +173,7 @@ vk.com##div [ class="audio_promo"]
 vk.com##div [ class="page_block ownerButton ownerButton_lovina_valentine"]
 
 #Музыканты для вас
+
 vk.com##.CatalogBlock__layout--slider.CatalogBlock__artists_recoms.CatalogBlock__content
 vk.com##.CatalogBlock__layout--header.CatalogBlock__artists_recoms_header.CatalogBlock__content
 
@@ -199,3 +200,6 @@ vk.com##.deep_active.post--with-likes.post_signed.mark_top_verified.page_block.p
 
 #Вам может быть интересно в новостях
 vk.com##.deep_active.post--with-likes.mark_top_verified.page_block.post._post
+
+#Рамки от кнопок в группах
+vk.com###group_section_menu
