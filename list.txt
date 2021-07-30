@@ -22,7 +22,8 @@ vk.com###ads_left
 # Домены и попапы
 ||ad.mail.ru/adq/*$domain=vk.com,important
 ||ad.mail.ru^$domain=vk.com,important
-vk.com## .feature_intro_tt, .feature_info_tooltip
+vk.com##.feature_intro_tt
+vk.com##.feature_info_tooltip
 vk.com##.profile_rate_warning
 vk.com##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest
 
