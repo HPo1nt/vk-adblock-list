@@ -222,3 +222,6 @@ vk.com##.apps_feedRightAppsBlock_sale_day.apps_feedRightAppsBlock.page_block
 
 #Карусель друзей во вкладке сообщений
 vk.com##div [ class="ConvoRecommendList"]
+
+#Ссылки на приложения на вкладке клипы (Больше клипов в вашем телефоне)
+vk.com##div [ class="ShortVideoStub"]
