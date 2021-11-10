@@ -225,3 +225,6 @@ vk.com##div [ class="ConvoRecommendList"]
 
 #Ссылки на приложения на вкладке клипы (Больше клипов в вашем телефоне)
 vk.com##div [ class="ShortVideoStub"]
+
+#Панель быстрых ответов в правом нижнем углу
+vk.com##div [ class="FCPanel"]
