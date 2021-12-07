@@ -228,3 +228,6 @@ vk.com##div [ class="ShortVideoStub"]
 
 #Панель быстрых ответов в правом нижнем углу
 vk.com##div [ class="FCPanel"]
+
+#Реклама VK Combo в правой колонке на вкладке новостей
+vk.com##div [ class="page_block apps_feedRightAppsBlock apps_feedRightAppsBlock_single_mini_app"]
