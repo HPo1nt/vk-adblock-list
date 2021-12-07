@@ -231,3 +231,6 @@ vk.com##div [ class="FCPanel"]
 
 #Реклама VK Combo в правой колонке на вкладке новостей
 vk.com##div [ class="page_block apps_feedRightAppsBlock apps_feedRightAppsBlock_single_mini_app"]
+
+#Меню сервисов VK, слева от меню профиля
+vk.com##div [ class="TopNavBtn TopNavBtn__ecosystemMenuLink"]
