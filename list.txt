@@ -234,3 +234,6 @@ vk.com##div [ class="page_block apps_feedRightAppsBlock apps_feedRightAppsBlock_
 
 #Меню сервисов VK, слева от меню профиля
 vk.com##div [ class="TopNavBtn TopNavBtn__ecosystemMenuLink"]
+
+#Ваши итоги 2021 года
+vk.com##div [ class="page_block ownerButton ownerButton_results_2021"]
