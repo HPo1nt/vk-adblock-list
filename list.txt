@@ -237,3 +237,6 @@ vk.com##div [ class="TopNavBtn TopNavBtn__ecosystemMenuLink"]
 
 #Ваши итоги 2021 года
 vk.com##div [ class="page_block ownerButton ownerButton_results_2021"]
+
+#Всплывающее окно анимированных лайков
+vk.com##[class^="Popper"]
