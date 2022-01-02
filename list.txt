@@ -240,3 +240,6 @@ vk.com##div [ class="page_block ownerButton ownerButton_results_2021"]
 
 #Всплывающее окно анимированных лайков
 vk.com##[class^="Popper"]
+
+#Видео-открытка
+vk.com##div [ id="video_postcard"]
