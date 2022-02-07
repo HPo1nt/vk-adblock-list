@@ -243,3 +243,7 @@ vk.com##[class^="Popper"]
 
 #Видео-открытка
 vk.com##div [ id="video_postcard"]
+
+#Рекомендуемые видео в новостях
+
+vk.com##[class^="FeedVideosForYou__head"]
