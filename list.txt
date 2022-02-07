@@ -245,5 +245,4 @@ vk.com##[class^="Popper"]
 vk.com##div [ id="video_postcard"]
 
 #Рекомендуемые видео в новостях
-
 vk.com##[class^="FeedVideosForYou__head"]
