@@ -246,3 +246,6 @@ vk.com##div [ id="video_postcard"]
 
 #Рекомендуемые видео в новостях
 vk.com##[class^="FeedVideosForYou__head"]
+
+#Ссылка на профиль
+vk.com##[class^="page_block ownerButton ownerButton_contact_card"]
