@@ -249,3 +249,6 @@ vk.com##[class^="FeedVideosForYou__head"]
 
 #Ссылка на профиль
 vk.com##[class^="page_block ownerButton ownerButton_contact_card"]
+
+# Остатки от предложененных видео в новостях, "Показать больше"
+vk.com##[class^=class="PageBlockShowMore"]
