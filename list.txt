@@ -254,4 +254,5 @@ vk.com##[class^="page_block ownerButton ownerButton_contact_card"]
 vk.com##[class^=class="PageBlockShowMore"]
 
 #Новые рекламные блоки в новостях
+vk.com##[class^="feed_row updated-by-ext"]
 ||lightframe.ru/frame/*$domain=vk.com,important
