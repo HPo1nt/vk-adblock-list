@@ -64,7 +64,7 @@ vk.com##div[data-ad-view*="*"]
 vk.com##div[data-ads*="*"]
 vk.com##div [ post_ad_data*="*"]
 vk.com##div [ class="feed_friends_recomm__title"]
-vk.com##div [ class="ui_gallery__inner"]
+#vk.com##div [ class="ui_gallery__inner"]
 #vk.com##div [ class="ui_gallery__inner_cont"]
 vk.com##.post:has(.wall_marked_as_ads)
 vk.com##div [ post_ad_site*="*"]
