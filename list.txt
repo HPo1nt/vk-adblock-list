@@ -252,3 +252,6 @@ vk.com##[class^="page_block ownerButton ownerButton_contact_card"]
 
 # Остатки от предложененных видео в новостях, "Показать больше"
 vk.com##[class^=class="PageBlockShowMore"]
+
+#Новые рекламные блоки в новостях
+||lightframe.ru/frame/*$domain=vk.com,important
