@@ -250,7 +250,7 @@ vk.com##[class^="FeedVideosForYou__head"]
 #Ссылка на профиль
 vk.com##[class^="page_block ownerButton ownerButton_contact_card"]
 
-# Остатки от предложененных видео в новостях, "Показать больше"
+#Остатки от предложененных видео в новостях, "Показать больше"
 vk.com##[class^=class="PageBlockShowMore"]
 
 #Новые рекламные блоки в новостях
@@ -260,3 +260,8 @@ vk.com##[class^="feed_row updated-by-ext"]
 # реклама VK Donut под постами 
 # "Чтобы видеть больше комментариев и оставлять свои, поддержите сообщество."
 vk.com##[class^="ReplyBoxDonut"]
+
+#"Друзья рекомендуют" в новостях
+vk.com##[class^="page_block feed_groups_recomm feed_groups_likes_block"]
+
+
