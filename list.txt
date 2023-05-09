@@ -261,4 +261,5 @@ vk.com##[class^="ReplyBoxDonut"]
 #"Друзья рекомендуют" в новостях
 vk.com##[class^="page_block feed_groups_recomm feed_groups_likes_block"]
 
-
+# Реклама приложений справа в новостях
+vk.com##[class^="apps_feedRightAppsBlock__row"]
