@@ -270,3 +270,6 @@ vk.com##[class^="feed_friends_recomm__title"]
 
 # Сообщества для вас
 vk.com##[class^="page_block feed_groups_recomm js-feed_groups_recomm  feed_groups_recomm_friends"]
+
+# Рекомендуемые сервисы
+vk.com##[class^="page_block feed_mini_apps_recomm"]
