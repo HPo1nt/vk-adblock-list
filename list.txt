@@ -273,3 +273,6 @@ vk.com##[class^="page_block feed_groups_recomm js-feed_groups_recomm  feed_group
 
 # Рекомендуемые сервисы
 vk.com##[class^="page_block feed_mini_apps_recomm"]
+
+# Возможные друзья
+vk.com##[class^="FriendsRecommendationsBlock-module__root--nHnFt vkuiGroup vkuiGroup--sizeX-regular vkuiGroup--card vkuiGroup--padding-m"]
