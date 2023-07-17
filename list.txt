@@ -263,3 +263,10 @@ vk.com##[class^="page_block feed_groups_recomm feed_groups_likes_block"]
 
 # Реклама приложений справа в новостях
 vk.com##[class^="apps_feedRightAppsBlock__row"]
+
+# Возможно, вы знакомы
+vk.com##[class^="ui_gallery friends_recomm_gallery ui_gallery_wall_cards"]
+vk.com##[class^="feed_friends_recomm__title"]
+
+# Сообщества для вас
+vk.com##[class^="page_block feed_groups_recomm js-feed_groups_recomm  feed_groups_recomm_friends"]
