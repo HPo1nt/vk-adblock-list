@@ -280,3 +280,6 @@ vk.com##[class^="FriendsRecommendationsBlock-module__root--nHnFt vkuiGroup vkuiG
 # Применяются рекомендательные технологии
 vk.com##[class^="LegalRecommendationsLinkLeftMenuAuthorized"]
 vk.com##[class^="WideSeparator WideSeparator--legalRecommendationsLink"]
+
+# Недавно посещали в сообществах
+vk.com##[class^="vkuiInternalGroup vkuiGroup vkuiGroup--mode-card vkuiInternalGroup--mode-card vkuiGroup--padding-m Group-module__group--lRMIn Group-module__groupPaddingM--qj3wo Group-module__groupModeCard--bGIrq vkuiInternalGroupCard"]
