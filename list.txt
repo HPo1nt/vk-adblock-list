@@ -283,3 +283,9 @@ vk.com##[class^="WideSeparator WideSeparator--legalRecommendationsLink"]
 
 # Недавно посещали в сообществах
 vk.com##[id^="react_rootRecentGroups"]
+
+# Возможно, вы знакомы в новостях
+vk.com##[class^="FeedBlockWrap FeedBlockWrap__marginM"]
+
+# VK Маркет в новостях
+vk.com##[class^="MarketItemsPortlet"]
