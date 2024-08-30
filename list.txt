@@ -292,3 +292,6 @@ vk.com##[class^="MarketItemsPortlet"]
 
 # Подарки в профиле
 vk.com##.ProfileGifts
+
+# Возможные друзья, колонка справа в новостях
+vk.com###friends_right_blocks_root
