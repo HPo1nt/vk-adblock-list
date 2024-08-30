@@ -289,3 +289,6 @@ vk.com##[class^="FeedBlockWrap FeedBlockWrap__marginM"]
 
 # VK Маркет в новостях
 vk.com##[class^="MarketItemsPortlet"]
+
+# Подарки в профиле
+vk.com##.ProfileGifts
