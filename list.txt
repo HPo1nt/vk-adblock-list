@@ -295,3 +295,10 @@ vk.com##.ProfileGifts
 
 # Возможные друзья, колонка справа в новостях
 vk.com###friends_right_blocks_root
+
+# Предложения в правой колонке сообществ
+vk.com##._ui_item_fandom.ui_rmenu_item
+vk.com##._ui_item_subscribe_for_love.ui_rmenu_item
+vk.com##._ui_item_animal_month.ui_rmenu_item
+vk.com##._ui_item_summer_games.ui_rmenu_item
+vk.com##._ui_item_knowledge.ui_rmenu_item
