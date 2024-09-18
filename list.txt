@@ -305,3 +305,7 @@ vk.com##._ui_item_knowledge.ui_rmenu_item
 
 # Рекламные баннеры в звонках 
 vk.com##.CallsReactionsBanner
+
+# Может быть интересно в новостях.
+# Скрывает все посты с возможностью скрытия (симовол X в левом углу - "Это не интересно")
+vk.com##.post:has(.PostActivityCaption)
