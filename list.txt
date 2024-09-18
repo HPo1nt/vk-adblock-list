@@ -306,3 +306,5 @@ vk.com##._ui_item_knowledge.ui_rmenu_item
 # Рекламные баннеры в звонках 
 vk.com##.CallsReactionsBanner
 
+# Может быть интересно в новостях
+vk.com##div.feed_row:nth-of-type(6)
