@@ -309,3 +309,6 @@ vk.com##.CallsReactionsBanner
 # Может быть интересно в новостях.
 # Скрывает все посты с возможностью скрытия (симовол X в левом углу - "Это не интересно")
 vk.com##.post:has(.PostActivityCaption)
+
+# Игра для вас в новостях
+vk.com##.page_block.BookmarkGameBlock
