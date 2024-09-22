@@ -64,8 +64,6 @@ vk.com##div[data-ad-view*="*"]
 vk.com##div[data-ads*="*"]
 vk.com##div [ post_ad_data*="*"]
 vk.com##div [ class="feed_friends_recomm__title"]
-#vk.com##div [ class="ui_gallery__inner"]
-#vk.com##div [ class="ui_gallery__inner_cont"]
 vk.com##.post:has(.wall_marked_as_ads)
 vk.com##div [ post_ad_site*="*"]
 vk.com##div [ postadsite*="*"]
@@ -80,10 +78,6 @@ vk.com##div[data-ads]
 ||vk.com/al_video.php?act=ads_stat
 ||vk.com/ads_rotate.php^
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js$domain=vk.com,important
-
-# Костыль для отмены фильтрования рекламы в документах для блокировки баннеров v2
-@@://vk.com/ads$document,~third-party,important
-@@://vk.com/exchange$document,important
 
 # Слежка
 ||tracker-api.my.com$domain=vk.com,important
