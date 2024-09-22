@@ -242,7 +242,7 @@ vk.com##[class^="FeedVideosForYou__head"]
 vk.com##[class^="page_block ownerButton ownerButton_contact_card"]
 
 #Остатки от предложененных видео в новостях, "Показать больше"
-vk.com##[class^=class="PageBlockShowMore"]
+vk.com##[class^="PageBlockShowMore"]
 
 #Новые рекламные блоки в новостях
 vk.com##[class^="feed_row updated-by-ext"]
