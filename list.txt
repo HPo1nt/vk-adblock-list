@@ -312,3 +312,6 @@ vk.com##.post:has(.PostActivityCaption)
 
 # Игра для вас в новостях
 vk.com##.page_block.BookmarkGameBlock
+
+# Значок статуса рядом с именем 
+vk.com##.image_status__statusImage
